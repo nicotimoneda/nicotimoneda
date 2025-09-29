@@ -17,12 +17,8 @@
 ---
 
 ## 📂 Proyectos Destacados  
+  
 
-🔹 [Clasificación de imágenes con CNN en TensorFlow](#) – Modelo de deep learning para reconocer imágenes con >90% accuracy.  
-🔹 [Sistema de recomendación de películas](#) – Algoritmo basado en filtrado colaborativo.  
-🔹 [Análisis de datos de fútbol](#) – Exploración y visualización de estadísticas de jugadores y equipos.  
-
-*(Añade links a repos reales a medida que los tengas listos)*  
 
 ---
 
@@ -34,9 +30,7 @@ Actualmente busco **prácticas en Ciencia de Datos / IA** donde pueda aplicar mi
 
 ## 📫 Contacto  
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/tu-linkedin)  
-- 📧 Email: tuemail@example.com  
-- 📂 [Portafolio / GitHub Pages](#) (opcional si lo montas en el futuro)  
+- 💼 [LinkedIn](www.linkedin.com/in/nicolás-timoneda-martínez)  
+- 📧 Email: nicotimoneda@gmsil.com
 
 ---
-✨ *“Los datos cuentan historias, mi misión es ayudarlos a hablar.”*
