@@ -1,4 +1,4 @@
-# 👋 Hola, soy Nicot  
+# 👋 Hola, soy Nico
 
 🎓 Estudiante de **Ciencia de Datos e Inteligencia Artificial** en la Universidad Alfonso X el Sabio (UAX).  
 💻 Apasionado por el **Machine Learning, Deep Learning y Computer Vision**, con proyectos en **Python, SQL y TensorFlow**.  
