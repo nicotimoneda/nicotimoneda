@@ -31,6 +31,6 @@ Actualmente busco **prácticas en Ciencia de Datos / IA** donde pueda aplicar mi
 ## 📫 Contacto  
 
 - 💼 [LinkedIn](www.linkedin.com/in/nicolás-timoneda-martínez)  
-- 📧 Email: nicotimoneda@gmsil.com
+- 📧 Email: nicotimoneda@gmail.com
 
 ---
