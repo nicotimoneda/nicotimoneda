@@ -12,13 +12,13 @@
 - **Machine Learning / Deep Learning**: TensorFlow, scikit-learn, Keras  
 - **Data**: Pandas, NumPy, Matplotlib, Seaborn  
 - **Cloud & Herramientas**: Google Colab, Jupyter, Git/GitHub  
-- **Otros**: Análisis de datos, Visualización, Preprocesamiento de datos  
+- **Otros**: Análisis de datos, Visualización, Preprocesamiento de datos, Machine Learning, Deep Learning 
 
 ---
 
 ## 📂 Proyectos Destacados  
   
-
+Customer-Churn
 
 ---
 
