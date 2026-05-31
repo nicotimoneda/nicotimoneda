@@ -53,7 +53,7 @@ Production-ready multi-agent system using **LangGraph** to orchestrate parallel 
 `LangGraph` · `Gemini 2.0` · `Streamlit` · `Python`
 
 #### 🧪 [SyntheticMarket-GAN](https://github.com/nicotimoneda/SyntheticMarket-GAN) · *Financial Time Series Generation*
-**Wasserstein GAN with Gradient Penalty** for synthesizing high-fidelity financial time series (AAPL), built to resolve the mode collapse issues that plague standard GANs. Bidirectional LSTM networks in both generator and critic model long-range temporal dependencies. Synthetic data validated against real distributions using **PCA** and **t-SNE** — not just by eyeballing loss curves.
+**Wasserstein GAN with Gradient Penalty** for generating synthetic financial time series (AAPL), built to tackle the training instability and mode collapse that plague standard GANs. Stacked LSTM generator and critic model the temporal structure of price windows, trained with a gradient penalty for a soft 1-Lipschitz constraint. Synthetic samples are evaluated at the distribution level with **PCA** and **t-SNE** — not just by eyeballing loss curves.
 `PyTorch` · `WGAN-GP` · `LSTM` · `uv`
 
 #### 🎓 [TFG_MultiAgente](https://github.com/nicotimoneda/TFG_MultiAgente) · *Final-Year Thesis*
