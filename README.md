@@ -65,8 +65,8 @@ Unsupervised scouting tool analyzing **2,700+ professional players** across Euro
 `Scikit-learn` · `K-Means` · `KNN` · `Streamlit`
 
 #### 📊 [Customer Churn Prediction](https://github.com/nicotimoneda/Customer-Churn-Prediction) · *Production ML Pipeline*
-End-to-end classification pipeline handling severe class imbalance via **SMOTE** oversampling. Random Forest hyperparameters optimized through GridSearchCV, with high Recall to minimize false negatives in retention scenarios. Full model interpretability through feature importance analysis.
-`Scikit-learn` · `Random Forest` · `SMOTE`
+End-to-end classification pipeline on imbalanced churn data, benchmarking Logistic Regression and Random Forest baselines against an **XGBoost** model tuned with GridSearchCV. Optimized for Recall to minimize false negatives in retention scenarios, with feature-importance analysis for interpretability.
+`Scikit-learn` · `XGBoost` · `GridSearchCV`
 
 ---
 
