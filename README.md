@@ -15,8 +15,9 @@
 ### What I'm doing right now
 
 - 🛠️ **AI Developer** at **NTT Data**, working on LLM orchestration and tool-use patterns for real enterprise workflows
-- 🎓 Finishing my **BSc in Data Science & AI** at **Universidad Alfonso X el Sabio (UAX)** — graduating May 2026
-- 🔎 Looking for **full-time ML Engineer / AI Developer roles** from mid-2026, remote or hybrid out of Madrid
+- 🎓 **BSc in Data Science & AI** at **Universidad Alfonso X el Sabio (UAX)** — thesis submitted, graduating June 2026
+- ✍️ Writing about ML engineering on [**Substack**](https://nicotimoneda.substack.com) — honest validation, negative results included
+- 🔎 Looking for **full-time ML Engineer / AI Developer roles**, remote or hybrid out of Madrid
 
 ---
 
@@ -41,31 +42,31 @@
 
 **Generative AI & LLMs:** LangChain · LangGraph · Multi-Agent Systems · RAG · Gemini 2.0 Flash · OpenAI API
 **Deep Learning:** PyTorch · TensorFlow · WGAN-GP · LSTMs · CNNs · Transformers
-**Classical ML:** Scikit-learn · XGBoost · Random Forest · K-Means · KNN · SMOTE · Ensemble Methods
+**Classical ML:** Scikit-learn · XGBoost · Random Forest · Logistic Regression · K-Means · KNN · Ensemble Methods
 **Engineering:** Python · SQL · Docker · GitHub Actions · uv · Streamlit · Git
 
 ---
 
 ### Things I've built
 
+#### 🎓 [TFG_MultiAgente](https://github.com/nicotimoneda/TFG_MultiAgente) · *Final-Year Thesis*
+Controlled experiment on whether **multi-agent LLM pipelines** actually beat a single model at code generation. 1,476 runs on HumanEval, paired McNemar tests, full cost accounting. Finding: the single-model baseline wins — **80% vs 58% pass@1 at 1/40th the token cost**. The hard part isn't the agents — it's having the rigour to report that they didn't help.
+`LangGraph` · `Ollama` · `Statistical Testing` · `Python`
+
+#### 🧪 [SyntheticMarket-GAN](https://github.com/nicotimoneda/SyntheticMarket-GAN) · *Generative Time Series · CI'd Package*
+**WGAN-GP** for synthetic AAPL price windows, refactored from notebook into an installable, tested package (pytest + ruff + GitHub Actions). PCA/t-SNE show strong real/synthetic overlap, but the honest headline — written up [on Substack](https://nicotimoneda.substack.com/p/wgan-gp-on-aapl-when-pca-looks-fine) — is that **step-to-step volatility comes out 4× too high**, a failure mode PCA and t-SNE silently miss.
+`PyTorch` · `WGAN-GP` · `pytest` · `GitHub Actions`
+
 #### 🤖 [Travel Planner AI](https://github.com/nicotimoneda/travel-planner-ai) · *Multi-Agent System*
-Production-ready multi-agent system using **LangGraph** to orchestrate parallel workflows between specialized *Explorer* and *Planner* agents with shared memory. Runs on **Gemini 2.0 Flash** with real-time web search for dynamic itinerary generation. Deployed on Streamlit with full conversation state management across agent handoffs.
+Two specialised agents on a **LangGraph** state machine: a low-temperature *Explorer* doing live web research, a *Planner* turning it into day-by-day itineraries with budgets, and conditional error routing between them so a failed search never becomes a hallucinated plan. **Gemini 2.0 Flash** + Streamlit.
 `LangGraph` · `Gemini 2.0` · `Streamlit` · `Python`
 
-#### 🧪 [SyntheticMarket-GAN](https://github.com/nicotimoneda/SyntheticMarket-GAN) · *Financial Time Series Generation*
-**Wasserstein GAN with Gradient Penalty** for generating synthetic financial time series (AAPL), built to tackle the training instability and mode collapse that plague standard GANs. Stacked LSTM generator and critic model the temporal structure of price windows, trained with a gradient penalty for a soft 1-Lipschitz constraint. Synthetic samples are evaluated at the distribution level with **PCA** and **t-SNE** — not just by eyeballing loss curves.
-`PyTorch` · `WGAN-GP` · `LSTM` · `uv`
-
-#### 🎓 [TFG_MultiAgente](https://github.com/nicotimoneda/TFG_MultiAgente) · *Final-Year Thesis*
-Orchestration of LLM agent teams with specialized roles for collaborative resolution of complex software engineering tasks. The hard part isn't the agents — it's the orchestration, state, and failure handling between them.
-`Python` · `LLM Agents` · `Multi-Agent Orchestration`
-
-#### ⚽ [Player Similarity Finder](https://github.com/nicotimoneda/PlayerSimilarityFinder) · *Sports Analytics*
-Unsupervised scouting tool analyzing **2,700+ professional players** across Europe's Big 5 leagues. K-Means clustering by tactical profile, paired with a KNN-based similarity engine that gives coaches explainable statistical justification — not just a black-box ranking.
+#### ⚽ [Player Similarity Finder](https://github.com/nicotimoneda/PlayerSimilarityFinder) · *Sports Analytics App*
+Unsupervised scouting tool over **2,700+ players** from Europe's Big 5 leagues. K-Means tactical profiles + a KNN similarity engine with explainable scores — query Lamine Yamal, get Wirtz, Olise and Barcola with radar-chart evidence. Live Streamlit app, screenshots in the repo.
 `Scikit-learn` · `K-Means` · `KNN` · `Streamlit`
 
-#### 📊 [Customer Churn Prediction](https://github.com/nicotimoneda/Customer-Churn-Prediction) · *Production ML Pipeline*
-End-to-end classification pipeline on imbalanced churn data, benchmarking Logistic Regression and Random Forest baselines against an **XGBoost** model tuned with GridSearchCV. Optimized for Recall to minimize false negatives in retention scenarios, with feature-importance analysis for interpretability.
+#### 📊 [Customer Churn Prediction](https://github.com/nicotimoneda/Customer-Churn-Prediction) · *Classification, Honest Benchmark*
+Four classifiers benchmarked on imbalanced Telco churn data with GridSearchCV — and the simple model won: **Logistic Regression beats tuned XGBoost on recall (0.572 vs 0.505) with 25 fewer missed churners**. Model selection driven by the business cost of false negatives, not leaderboard accuracy.
 `Scikit-learn` · `XGBoost` · `GridSearchCV`
 
 ---
