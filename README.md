@@ -6,7 +6,9 @@
 
 [![Location](https://img.shields.io/badge/-Talavera%20de%20la%20Reina,%20Spain-2E2E2E?style=flat-square&logo=googlemaps&logoColor=white)](https://github.com/nicotimoneda)
 [![BSc](https://img.shields.io/badge/-BSc%20Data%20Science%20%26%20AI-2E2E2E?style=flat-square&logo=academia&logoColor=white)](https://www.uax.com)
-[![Available](https://img.shields.io/badge/Open%20to%20work-mid--2026-1A7F37?style=flat-square)](mailto:nicotimoneda@gmail.com)
+[![Available](https://img.shields.io/badge/Open%20to%20work-ML%20Engineer%20%2F%20AI%20Developer-1A7F37?style=flat-square)](mailto:nicotimoneda@gmail.com)
+[![Substack](https://img.shields.io/badge/-Substack-FF6719?style=flat-square&logo=substack&logoColor=white)](https://nicotimoneda.substack.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicol%C3%A1s-timoneda-mart%C3%ADnez/)
 
 </div>
 
