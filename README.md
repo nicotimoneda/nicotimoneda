@@ -85,7 +85,7 @@ Four classifiers benchmarked on imbalanced Telco churn data with GridSearchCV â€
 <br/>
 
 <a href="https://github.com/nicotimoneda">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nicotimoneda&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=nicotimoneda&theme=tokyonight&hide_border=true" />
 </a>
 
 </div>
